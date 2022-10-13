@@ -1,0 +1,16 @@
+#Dictionary inside have a phone numbers
+
+print("Phone Dictionary")
+dictNumber={"kashif":"008612312312\n 03001234567","Sanakaka":"03001212122",
+            "navidkhan":"0086000000","sheraz":"0312000000"}
+
+dictNumber["ali"]="06063132331"
+dictNumber["jani"]="00923145656786"
+search=input("Please Enter the name Thanks you\n")
+if search in dictNumber:
+    print(dictNumber[search])
+
+else:
+    print("Dictionary have not this contect please first save your contect\n Thanks you ")
+
+
