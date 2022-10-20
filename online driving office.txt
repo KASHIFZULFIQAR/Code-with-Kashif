@@ -1,0 +1,11 @@
+print("Wellcome")
+print("Online Driving office")
+inp1=int(input("Please Enter you age\n"))
+age=18
+if inp1 <age:
+        print("We are Sorry you con n,t Driving")
+elif inp1 == age:
+        print("Please you are coming our office  Thanks you")
+if inp1>age:
+        print("No problem you can drive Thank you ")
+
