@@ -1,0 +1,27 @@
+print("Guss number quize\n")
+
+
+for i in range(5):
+        j=5
+        numbers = 17
+        inp = int(input("Please Enter your guss number\n"))
+        if (inp == numbers):
+            print("Wellcome your guss in write")
+            break
+        else:
+            if (inp > numbers):
+                print("Your guss in above in our number","your chance less",j-i)
+
+            if (inp < numbers):
+                print("Your guss in lower in our number",";your chance less",j-i)
+                continue
+
+
+
+
+
+
+
+
+
+
