@@ -1,0 +1,11 @@
+print("Please Enter the number")
+num=int(input())
+print("Please choice 0,1")
+bool=int(input())
+if bool==0:
+    for i in range(num+1):
+        print("*"*i)
+
+if bool==1:
+    for i in range(num,0,-1):
+        print("*"*i)
