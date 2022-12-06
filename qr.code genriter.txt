@@ -1,0 +1,7 @@
+import pyqrcode
+from pyqrcode import QRCode
+T="3630260301479" \
+  " MUHAMMAD TARIQ" \
+  "  MN-19-7205"
+url=pyqrcode.create(T)
+url.svg("kashig.svg",scale=8)
